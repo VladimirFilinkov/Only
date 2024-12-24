@@ -1,0 +1,11 @@
+[ {
+  "uid" : "e745aafaeab3e916",
+  "name" : "Проверка футера на страницах сайта",
+  "time" : {
+    "start" : 1735039941887,
+    "stop" : 1735039997503,
+    "duration" : 55616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "MSI",
+    "children" : [ {
+      "name" : "18712@MSI.main(1)",
+      "children" : [ {
+        "name" : "Проверка футера на страницах сайта",
+        "uid" : "e745aafaeab3e916",
+        "parentUid" : "ed33a50a08c9e2d8f5f3cec002755534",
+        "status" : "passed",
+        "time" : {
+          "start" : 1735039941887,
+          "stop" : 1735039997503,
+          "duration" : 55616
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed33a50a08c9e2d8f5f3cec002755534"
+    } ],
+    "uid" : "4e235fbd4c199973bc00f3dda2ae852d"
+  } ],
+  "name" : "timeline"
+}

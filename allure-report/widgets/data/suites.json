@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "FooterTest",
+    "children" : [ {
+      "name" : "Проверка футера на страницах сайта",
+      "uid" : "e745aafaeab3e916",
+      "parentUid" : "04c0fcd25482bfb1935ac8106bdd8fa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1735039941887,
+        "stop" : 1735039997503,
+        "duration" : 55616
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "04c0fcd25482bfb1935ac8106bdd8fa9"
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Dec 24 14:32:21 MSK 2024","Tue Dec 24 14:33:17 MSK 2024","55616","","FooterTest","","FooterTest","testFooterVisibility","Проверка футера на страницах сайта",""

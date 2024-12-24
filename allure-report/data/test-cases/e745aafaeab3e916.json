@@ -1,0 +1,3635 @@
+{
+  "uid" : "e745aafaeab3e916",
+  "name" : "Проверка футера на страницах сайта",
+  "fullName" : "FooterTest.testFooterVisibility",
+  "historyId" : "802b906912ba1d33d9547253e4d7cb85",
+  "time" : {
+    "start" : 1735039941887,
+    "stop" : 1735039997503,
+    "duration" : 55616
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Тестируем страницу: https://only.digital/",
+      "time" : {
+        "start" : 1735039945219,
+        "stop" : 1735039956121,
+        "duration" : 10902
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Страница открыта, контент загружен",
+        "time" : {
+          "start" : 1735039945219,
+          "stop" : 1735039953634,
+          "duration" : 8415
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открываем страницу",
+          "time" : {
+            "start" : 1735039945219,
+            "stop" : 1735039949129,
+            "duration" : 3910
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ожидание загрузки страницы...",
+          "time" : {
+            "start" : 1735039949129,
+            "stop" : 1735039949250,
+            "duration" : 121
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Страница загружена",
+            "time" : {
+              "start" : 1735039949249,
+              "stop" : 1735039949249,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Страница загрузилась",
+          "time" : {
+            "start" : 1735039949250,
+            "stop" : 1735039953634,
+            "duration" : 4384
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Индикатор загрузки страницы найден",
+            "time" : {
+              "start" : 1735039953558,
+              "stop" : 1735039953558,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Кликнули по телу страницы для фокуса.",
+            "time" : {
+              "start" : 1735039953634,
+              "stop" : 1735039953634,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://only.digital/"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем футер",
+        "time" : {
+          "start" : 1735039953634,
+          "stop" : 1735039955407,
+          "duration" : 1773
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Проверка наличия футера в коде страницы",
+          "time" : {
+            "start" : 1735039953634,
+            "stop" : 1735039953653,
+            "duration" : 19
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Футер в коде страницы найден. Проверяем видимость.",
+            "time" : {
+              "start" : 1735039953648,
+              "stop" : 1735039953653,
+              "duration" : 5
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "url",
+              "value" : "https://only.digital/"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Футер найден в коде, но не виден. Скроллим страницу",
+          "time" : {
+            "start" : 1735039953653,
+            "stop" : 1735039955406,
+            "duration" : 1753
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Футер на странице ЕСТЬ И ВИДЕН пользователю.",
+          "time" : {
+            "start" : 1735039955407,
+            "stop" : 1735039955407,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://only.digital/"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем элементы в футере",
+        "time" : {
+          "start" : 1735039955407,
+          "stop" : 1735039956121,
+          "duration" : 714
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Элемент Начать проект: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039955455,
+            "stop" : 1735039955470,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Начать проект"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//p[text()=\"Начать проект\"]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Номер телефона: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039955523,
+            "stop" : 1735039955592,
+            "duration" : 69
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: tel:+74957409979",
+            "time" : {
+              "start" : 1735039955592,
+              "stop" : 1735039955592,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Номер телефона"
+            }, {
+              "name" : "href",
+              "value" : "tel:+74957409979"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Номер телефона"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//a[starts-with(@href, \"tel:\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Email: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039955642,
+            "stop" : 1735039955705,
+            "duration" : 63
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: mailto:hello@only.com.ru",
+            "time" : {
+              "start" : 1735039955705,
+              "stop" : 1735039955705,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Email"
+            }, {
+              "name" : "href",
+              "value" : "mailto:hello@only.com.ru"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Email"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//a[starts-with(@href, \"mailto:\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Кнопка наверх: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039955751,
+            "stop" : 1735039955768,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Кнопка наверх"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//div[contains(@class, \"sc-222969c7-9\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Awwwards: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039955807,
+            "stop" : 1735039955843,
+            "duration" : 36
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://www.awwwards.com/Ilyaredko/",
+            "time" : {
+              "start" : 1735039955843,
+              "stop" : 1735039955843,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Awwwards"
+            }, {
+              "name" : "href",
+              "value" : "https://www.awwwards.com/Ilyaredko/"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Awwwards"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Awwwards\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на VK: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039955884,
+            "stop" : 1735039955918,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://vk.com/onlydigitalagency",
+            "time" : {
+              "start" : 1735039955918,
+              "stop" : 1735039955918,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на VK"
+            }, {
+              "name" : "href",
+              "value" : "https://vk.com/onlydigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на VK"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Vkontakte\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Telegram: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039955954,
+            "stop" : 1735039956000,
+            "duration" : 46
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://t.me/onlycreativedigitalagency",
+            "time" : {
+              "start" : 1735039956000,
+              "stop" : 1735039956000,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Telegram"
+            }, {
+              "name" : "href",
+              "value" : "https://t.me/onlycreativedigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Telegram"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Telegram\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Vimeo: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039956032,
+            "stop" : 1735039956056,
+            "duration" : 24
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://vimeo.com/onlydigital",
+            "time" : {
+              "start" : 1735039956056,
+              "stop" : 1735039956056,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Vimeo"
+            }, {
+              "name" : "href",
+              "value" : "https://vimeo.com/onlydigital"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Vimeo"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Vimeo\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Behance: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039956093,
+            "stop" : 1735039956121,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://www.behance.net/onlydigitalagency",
+            "time" : {
+              "start" : 1735039956121,
+              "stop" : 1735039956121,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Behance"
+            }, {
+              "name" : "href",
+              "value" : "https://www.behance.net/onlydigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Behance"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Behance\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 16,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://only.digital/"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 29,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тестируем страницу: https://only.digital/projects",
+      "time" : {
+        "start" : 1735039956121,
+        "stop" : 1735039964359,
+        "duration" : 8238
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Страница открыта, контент загружен",
+        "time" : {
+          "start" : 1735039956121,
+          "stop" : 1735039962778,
+          "duration" : 6657
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открываем страницу",
+          "time" : {
+            "start" : 1735039956121,
+            "stop" : 1735039960358,
+            "duration" : 4237
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/projects"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ожидание загрузки страницы...",
+          "time" : {
+            "start" : 1735039960358,
+            "stop" : 1735039960497,
+            "duration" : 139
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Страница загружена",
+            "time" : {
+              "start" : 1735039960497,
+              "stop" : 1735039960497,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Страница загрузилась",
+          "time" : {
+            "start" : 1735039960497,
+            "stop" : 1735039962778,
+            "duration" : 2281
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Индикатор загрузки страницы найден",
+            "time" : {
+              "start" : 1735039962734,
+              "stop" : 1735039962735,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Кликнули по телу страницы для фокуса.",
+            "time" : {
+              "start" : 1735039962778,
+              "stop" : 1735039962778,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://only.digital/projects"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем футер",
+        "time" : {
+          "start" : 1735039962778,
+          "stop" : 1735039963777,
+          "duration" : 999
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Проверка наличия футера в коде страницы",
+          "time" : {
+            "start" : 1735039962778,
+            "stop" : 1735039962785,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Футер в коде страницы найден. Проверяем видимость.",
+            "time" : {
+              "start" : 1735039962785,
+              "stop" : 1735039962785,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "url",
+              "value" : "https://only.digital/projects"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/projects"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Футер найден в коде, но не виден. Скроллим страницу",
+          "time" : {
+            "start" : 1735039962785,
+            "stop" : 1735039963777,
+            "duration" : 992
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Футер на странице ЕСТЬ И ВИДЕН пользователю.",
+          "time" : {
+            "start" : 1735039963777,
+            "stop" : 1735039963777,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/projects"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://only.digital/projects"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем элементы в футере",
+        "time" : {
+          "start" : 1735039963777,
+          "stop" : 1735039964359,
+          "duration" : 582
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Элемент Начать проект: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039963806,
+            "stop" : 1735039963813,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Начать проект"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//p[text()=\"Начать проект\"]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Номер телефона: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039963840,
+            "stop" : 1735039963867,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: tel:+74957409979",
+            "time" : {
+              "start" : 1735039963867,
+              "stop" : 1735039963867,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Номер телефона"
+            }, {
+              "name" : "href",
+              "value" : "tel:+74957409979"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Номер телефона"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//a[starts-with(@href, \"tel:\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Email: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039963891,
+            "stop" : 1735039963916,
+            "duration" : 25
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: mailto:hello@only.com.ru",
+            "time" : {
+              "start" : 1735039963916,
+              "stop" : 1735039963916,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Email"
+            }, {
+              "name" : "href",
+              "value" : "mailto:hello@only.com.ru"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Email"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//a[starts-with(@href, \"mailto:\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Кнопка наверх: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039963940,
+            "stop" : 1735039963946,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Кнопка наверх"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//div[contains(@class, \"sc-222969c7-9\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Awwwards: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039963972,
+            "stop" : 1735039964000,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://www.awwwards.com/Ilyaredko/",
+            "time" : {
+              "start" : 1735039964000,
+              "stop" : 1735039964000,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Awwwards"
+            }, {
+              "name" : "href",
+              "value" : "https://www.awwwards.com/Ilyaredko/"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Awwwards"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Awwwards\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на VK: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039964108,
+            "stop" : 1735039964135,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://vk.com/onlydigitalagency",
+            "time" : {
+              "start" : 1735039964134,
+              "stop" : 1735039964135,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на VK"
+            }, {
+              "name" : "href",
+              "value" : "https://vk.com/onlydigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на VK"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Vkontakte\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Telegram: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039964170,
+            "stop" : 1735039964192,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://t.me/onlycreativedigitalagency",
+            "time" : {
+              "start" : 1735039964192,
+              "stop" : 1735039964192,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Telegram"
+            }, {
+              "name" : "href",
+              "value" : "https://t.me/onlycreativedigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Telegram"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Telegram\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Vimeo: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039964222,
+            "stop" : 1735039964252,
+            "duration" : 30
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://vimeo.com/onlydigital",
+            "time" : {
+              "start" : 1735039964252,
+              "stop" : 1735039964252,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Vimeo"
+            }, {
+              "name" : "href",
+              "value" : "https://vimeo.com/onlydigital"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Vimeo"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Vimeo\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Behance: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039964325,
+            "stop" : 1735039964359,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://www.behance.net/onlydigitalagency",
+            "time" : {
+              "start" : 1735039964359,
+              "stop" : 1735039964359,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Behance"
+            }, {
+              "name" : "href",
+              "value" : "https://www.behance.net/onlydigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Behance"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Behance\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 16,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://only.digital/projects"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 29,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тестируем страницу: https://only.digital/company",
+      "time" : {
+        "start" : 1735039964359,
+        "stop" : 1735039972153,
+        "duration" : 7794
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Страница открыта, контент загружен",
+        "time" : {
+          "start" : 1735039964359,
+          "stop" : 1735039970129,
+          "duration" : 5770
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открываем страницу",
+          "time" : {
+            "start" : 1735039964360,
+            "stop" : 1735039967953,
+            "duration" : 3593
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/company"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ожидание загрузки страницы...",
+          "time" : {
+            "start" : 1735039967953,
+            "stop" : 1735039968097,
+            "duration" : 144
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Страница загружена",
+            "time" : {
+              "start" : 1735039968096,
+              "stop" : 1735039968097,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Страница загрузилась",
+          "time" : {
+            "start" : 1735039968097,
+            "stop" : 1735039970129,
+            "duration" : 2032
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Индикатор загрузки страницы найден",
+            "time" : {
+              "start" : 1735039970059,
+              "stop" : 1735039970059,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Кликнули по телу страницы для фокуса.",
+            "time" : {
+              "start" : 1735039970129,
+              "stop" : 1735039970129,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://only.digital/company"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем футер",
+        "time" : {
+          "start" : 1735039970129,
+          "stop" : 1735039971717,
+          "duration" : 1588
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Проверка наличия футера в коде страницы",
+          "time" : {
+            "start" : 1735039970129,
+            "stop" : 1735039970138,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Футер в коде страницы найден. Проверяем видимость.",
+            "time" : {
+              "start" : 1735039970138,
+              "stop" : 1735039970138,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "url",
+              "value" : "https://only.digital/company"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/company"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Футер найден в коде, но не виден. Скроллим страницу",
+          "time" : {
+            "start" : 1735039970138,
+            "stop" : 1735039971717,
+            "duration" : 1579
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Футер на странице ЕСТЬ И ВИДЕН пользователю.",
+          "time" : {
+            "start" : 1735039971717,
+            "stop" : 1735039971717,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/company"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://only.digital/company"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем элементы в футере",
+        "time" : {
+          "start" : 1735039971717,
+          "stop" : 1735039972153,
+          "duration" : 436
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Элемент Начать проект: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039971744,
+            "stop" : 1735039971758,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Начать проект"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//p[text()=\"Начать проект\"]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Номер телефона: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039971783,
+            "stop" : 1735039971807,
+            "duration" : 24
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: tel:+74957409979",
+            "time" : {
+              "start" : 1735039971807,
+              "stop" : 1735039971807,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Номер телефона"
+            }, {
+              "name" : "href",
+              "value" : "tel:+74957409979"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Номер телефона"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//a[starts-with(@href, \"tel:\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Email: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039971838,
+            "stop" : 1735039971876,
+            "duration" : 38
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: mailto:hello@only.com.ru",
+            "time" : {
+              "start" : 1735039971876,
+              "stop" : 1735039971876,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Email"
+            }, {
+              "name" : "href",
+              "value" : "mailto:hello@only.com.ru"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Email"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//a[starts-with(@href, \"mailto:\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Кнопка наверх: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039971899,
+            "stop" : 1735039971903,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Кнопка наверх"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//div[contains(@class, \"sc-222969c7-9\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Awwwards: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039971925,
+            "stop" : 1735039971952,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://www.awwwards.com/Ilyaredko/",
+            "time" : {
+              "start" : 1735039971952,
+              "stop" : 1735039971952,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Awwwards"
+            }, {
+              "name" : "href",
+              "value" : "https://www.awwwards.com/Ilyaredko/"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Awwwards"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Awwwards\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на VK: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039971984,
+            "stop" : 1735039972009,
+            "duration" : 25
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://vk.com/onlydigitalagency",
+            "time" : {
+              "start" : 1735039972009,
+              "stop" : 1735039972009,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на VK"
+            }, {
+              "name" : "href",
+              "value" : "https://vk.com/onlydigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на VK"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Vkontakte\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Telegram: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039972031,
+            "stop" : 1735039972054,
+            "duration" : 23
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://t.me/onlycreativedigitalagency",
+            "time" : {
+              "start" : 1735039972054,
+              "stop" : 1735039972054,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Telegram"
+            }, {
+              "name" : "href",
+              "value" : "https://t.me/onlycreativedigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Telegram"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Telegram\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Vimeo: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039972087,
+            "stop" : 1735039972113,
+            "duration" : 26
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://vimeo.com/onlydigital",
+            "time" : {
+              "start" : 1735039972112,
+              "stop" : 1735039972113,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Vimeo"
+            }, {
+              "name" : "href",
+              "value" : "https://vimeo.com/onlydigital"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Vimeo"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Vimeo\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Behance: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039972134,
+            "stop" : 1735039972153,
+            "duration" : 19
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://www.behance.net/onlydigitalagency",
+            "time" : {
+              "start" : 1735039972152,
+              "stop" : 1735039972153,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Behance"
+            }, {
+              "name" : "href",
+              "value" : "https://www.behance.net/onlydigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Behance"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Behance\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 16,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://only.digital/company"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 29,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тестируем страницу: https://only.digital/job",
+      "time" : {
+        "start" : 1735039972153,
+        "stop" : 1735039980222,
+        "duration" : 8069
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Страница открыта, контент загружен",
+        "time" : {
+          "start" : 1735039972153,
+          "stop" : 1735039978812,
+          "duration" : 6659
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открываем страницу",
+          "time" : {
+            "start" : 1735039972153,
+            "stop" : 1735039977630,
+            "duration" : 5477
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/job"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ожидание загрузки страницы...",
+          "time" : {
+            "start" : 1735039977630,
+            "stop" : 1735039977684,
+            "duration" : 54
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Страница загружена",
+            "time" : {
+              "start" : 1735039977684,
+              "stop" : 1735039977684,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Страница загрузилась",
+          "time" : {
+            "start" : 1735039977684,
+            "stop" : 1735039978812,
+            "duration" : 1128
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Индикатор загрузки страницы найден",
+            "time" : {
+              "start" : 1735039978775,
+              "stop" : 1735039978775,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Кликнули по телу страницы для фокуса.",
+            "time" : {
+              "start" : 1735039978812,
+              "stop" : 1735039978812,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://only.digital/job"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем футер",
+        "time" : {
+          "start" : 1735039978812,
+          "stop" : 1735039979844,
+          "duration" : 1032
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Проверка наличия футера в коде страницы",
+          "time" : {
+            "start" : 1735039978812,
+            "stop" : 1735039978822,
+            "duration" : 10
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Футер в коде страницы найден. Проверяем видимость.",
+            "time" : {
+              "start" : 1735039978822,
+              "stop" : 1735039978822,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "url",
+              "value" : "https://only.digital/job"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/job"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Футер найден в коде, но не виден. Скроллим страницу",
+          "time" : {
+            "start" : 1735039978822,
+            "stop" : 1735039979844,
+            "duration" : 1022
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Футер на странице ЕСТЬ И ВИДЕН пользователю.",
+          "time" : {
+            "start" : 1735039979844,
+            "stop" : 1735039979844,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/job"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://only.digital/job"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем элементы в футере",
+        "time" : {
+          "start" : 1735039979844,
+          "stop" : 1735039980222,
+          "duration" : 378
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Элемент Начать проект: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039979873,
+            "stop" : 1735039979880,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Начать проект"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//p[text()=\"Начать проект\"]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Номер телефона: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039979904,
+            "stop" : 1735039979926,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: tel:+74957409979",
+            "time" : {
+              "start" : 1735039979926,
+              "stop" : 1735039979926,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Номер телефона"
+            }, {
+              "name" : "href",
+              "value" : "tel:+74957409979"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Номер телефона"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//a[starts-with(@href, \"tel:\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Email: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039979951,
+            "stop" : 1735039979975,
+            "duration" : 24
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: mailto:hello@only.com.ru",
+            "time" : {
+              "start" : 1735039979975,
+              "stop" : 1735039979975,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Email"
+            }, {
+              "name" : "href",
+              "value" : "mailto:hello@only.com.ru"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Email"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//a[starts-with(@href, \"mailto:\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Кнопка наверх: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039979998,
+            "stop" : 1735039980004,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Кнопка наверх"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//div[contains(@class, \"sc-222969c7-9\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Awwwards: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039980030,
+            "stop" : 1735039980053,
+            "duration" : 23
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://www.awwwards.com/Ilyaredko/",
+            "time" : {
+              "start" : 1735039980053,
+              "stop" : 1735039980053,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Awwwards"
+            }, {
+              "name" : "href",
+              "value" : "https://www.awwwards.com/Ilyaredko/"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Awwwards"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Awwwards\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на VK: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039980076,
+            "stop" : 1735039980098,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://vk.com/onlydigitalagency",
+            "time" : {
+              "start" : 1735039980097,
+              "stop" : 1735039980097,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на VK"
+            }, {
+              "name" : "href",
+              "value" : "https://vk.com/onlydigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на VK"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Vkontakte\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Telegram: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039980116,
+            "stop" : 1735039980138,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://t.me/onlycreativedigitalagency",
+            "time" : {
+              "start" : 1735039980138,
+              "stop" : 1735039980138,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Telegram"
+            }, {
+              "name" : "href",
+              "value" : "https://t.me/onlycreativedigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Telegram"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Telegram\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Vimeo: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039980161,
+            "stop" : 1735039980182,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://vimeo.com/onlydigital",
+            "time" : {
+              "start" : 1735039980182,
+              "stop" : 1735039980182,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Vimeo"
+            }, {
+              "name" : "href",
+              "value" : "https://vimeo.com/onlydigital"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Vimeo"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Vimeo\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Behance: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039980202,
+            "stop" : 1735039980222,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://www.behance.net/onlydigitalagency",
+            "time" : {
+              "start" : 1735039980222,
+              "stop" : 1735039980222,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Behance"
+            }, {
+              "name" : "href",
+              "value" : "https://www.behance.net/onlydigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Behance"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Behance\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 16,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://only.digital/job"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 29,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тестируем страницу: https://only.digital/contacts",
+      "time" : {
+        "start" : 1735039980222,
+        "stop" : 1735039986439,
+        "duration" : 6217
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Страница открыта, контент загружен",
+        "time" : {
+          "start" : 1735039980222,
+          "stop" : 1735039985408,
+          "duration" : 5186
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открываем страницу",
+          "time" : {
+            "start" : 1735039980222,
+            "stop" : 1735039981189,
+            "duration" : 967
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/contacts"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ожидание загрузки страницы...",
+          "time" : {
+            "start" : 1735039981190,
+            "stop" : 1735039981366,
+            "duration" : 176
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Страница загружена",
+            "time" : {
+              "start" : 1735039981365,
+              "stop" : 1735039981366,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Страница загрузилась",
+          "time" : {
+            "start" : 1735039981366,
+            "stop" : 1735039985408,
+            "duration" : 4042
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Индикатор загрузки страницы найден",
+            "time" : {
+              "start" : 1735039985355,
+              "stop" : 1735039985355,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Кликнули по телу страницы для фокуса.",
+            "time" : {
+              "start" : 1735039985407,
+              "stop" : 1735039985408,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://only.digital/contacts"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем футер",
+        "time" : {
+          "start" : 1735039985408,
+          "stop" : 1735039986064,
+          "duration" : 656
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Проверка наличия футера в коде страницы",
+          "time" : {
+            "start" : 1735039985408,
+            "stop" : 1735039985421,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Футер в коде страницы найден. Проверяем видимость.",
+            "time" : {
+              "start" : 1735039985421,
+              "stop" : 1735039985421,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "url",
+              "value" : "https://only.digital/contacts"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/contacts"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Футер найден в коде, но не виден. Скроллим страницу",
+          "time" : {
+            "start" : 1735039985421,
+            "stop" : 1735039986064,
+            "duration" : 643
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Футер на странице ЕСТЬ И ВИДЕН пользователю.",
+          "time" : {
+            "start" : 1735039986064,
+            "stop" : 1735039986064,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/contacts"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://only.digital/contacts"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем элементы в футере",
+        "time" : {
+          "start" : 1735039986064,
+          "stop" : 1735039986439,
+          "duration" : 375
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Элемент Начать проект: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039986091,
+            "stop" : 1735039986094,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Начать проект"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//p[text()=\"Начать проект\"]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Номер телефона: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039986116,
+            "stop" : 1735039986138,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: tel:+74957409979",
+            "time" : {
+              "start" : 1735039986138,
+              "stop" : 1735039986138,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Номер телефона"
+            }, {
+              "name" : "href",
+              "value" : "tel:+74957409979"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Номер телефона"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//a[starts-with(@href, \"tel:\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Email: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039986161,
+            "stop" : 1735039986184,
+            "duration" : 23
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: mailto:hello@only.com.ru",
+            "time" : {
+              "start" : 1735039986184,
+              "stop" : 1735039986184,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Email"
+            }, {
+              "name" : "href",
+              "value" : "mailto:hello@only.com.ru"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Email"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//a[starts-with(@href, \"mailto:\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Кнопка наверх: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039986206,
+            "stop" : 1735039986211,
+            "duration" : 5
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Кнопка наверх"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//div[contains(@class, \"sc-222969c7-9\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Awwwards: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039986234,
+            "stop" : 1735039986258,
+            "duration" : 24
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://www.awwwards.com/Ilyaredko/",
+            "time" : {
+              "start" : 1735039986258,
+              "stop" : 1735039986258,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Awwwards"
+            }, {
+              "name" : "href",
+              "value" : "https://www.awwwards.com/Ilyaredko/"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Awwwards"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Awwwards\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на VK: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039986279,
+            "stop" : 1735039986304,
+            "duration" : 25
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://vk.com/onlydigitalagency",
+            "time" : {
+              "start" : 1735039986304,
+              "stop" : 1735039986304,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на VK"
+            }, {
+              "name" : "href",
+              "value" : "https://vk.com/onlydigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на VK"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Vkontakte\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Telegram: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039986330,
+            "stop" : 1735039986352,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://t.me/onlycreativedigitalagency",
+            "time" : {
+              "start" : 1735039986352,
+              "stop" : 1735039986352,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Telegram"
+            }, {
+              "name" : "href",
+              "value" : "https://t.me/onlycreativedigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Telegram"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Telegram\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Vimeo: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039986373,
+            "stop" : 1735039986395,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://vimeo.com/onlydigital",
+            "time" : {
+              "start" : 1735039986395,
+              "stop" : 1735039986395,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Vimeo"
+            }, {
+              "name" : "href",
+              "value" : "https://vimeo.com/onlydigital"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Vimeo"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Vimeo\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Behance: найден в коде и виден на странице",
+          "time" : {
+            "start" : 1735039986416,
+            "stop" : 1735039986439,
+            "duration" : 23
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://www.behance.net/onlydigitalagency",
+            "time" : {
+              "start" : 1735039986439,
+              "stop" : 1735039986439,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Behance"
+            }, {
+              "name" : "href",
+              "value" : "https://www.behance.net/onlydigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Behance"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде и виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Behance\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 16,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://only.digital/contacts"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 29,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тестируем страницу: https://only.digital/#brief",
+      "time" : {
+        "start" : 1735039986439,
+        "stop" : 1735039996909,
+        "duration" : 10470
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Страница открыта, контент загружен",
+        "time" : {
+          "start" : 1735039986439,
+          "stop" : 1735039992357,
+          "duration" : 5918
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открываем страницу",
+          "time" : {
+            "start" : 1735039986439,
+            "stop" : 1735039988425,
+            "duration" : 1986
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/#brief"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Ожидание загрузки страницы...",
+          "time" : {
+            "start" : 1735039988425,
+            "stop" : 1735039988725,
+            "duration" : 300
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Страница загружена",
+            "time" : {
+              "start" : 1735039988725,
+              "stop" : 1735039988725,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Страница загрузилась",
+          "time" : {
+            "start" : 1735039988725,
+            "stop" : 1735039992357,
+            "duration" : 3632
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Индикатор загрузки страницы найден",
+            "time" : {
+              "start" : 1735039992313,
+              "stop" : 1735039992313,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Кликнули по телу страницы для фокуса.",
+            "time" : {
+              "start" : 1735039992357,
+              "stop" : 1735039992357,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://only.digital/#brief"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем футер",
+        "time" : {
+          "start" : 1735039992357,
+          "stop" : 1735039996506,
+          "duration" : 4149
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Проверка наличия футера в коде страницы",
+          "time" : {
+            "start" : 1735039992357,
+            "stop" : 1735039992369,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Футер в коде страницы найден. Проверяем видимость.",
+            "time" : {
+              "start" : 1735039992369,
+              "stop" : 1735039992369,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "url",
+              "value" : "https://only.digital/#brief"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/#brief"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Футер найден в коде, но не виден. Скроллим страницу",
+          "time" : {
+            "start" : 1735039992369,
+            "stop" : 1735039996505,
+            "duration" : 4136
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Футер на странице ЕСТЬ, но НЕ ВИДЕН пользователю.",
+          "time" : {
+            "start" : 1735039996505,
+            "stop" : 1735039996506,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://only.digital/#brief"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://only.digital/#brief"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем элементы в футере",
+        "time" : {
+          "start" : 1735039996506,
+          "stop" : 1735039996909,
+          "duration" : 403
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Элемент Начать проект: найден в коде, но не виден на странице",
+          "time" : {
+            "start" : 1735039996531,
+            "stop" : 1735039996536,
+            "duration" : 5
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Начать проект"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде, но не виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//p[text()=\"Начать проект\"]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Номер телефона: найден в коде, но не виден на странице",
+          "time" : {
+            "start" : 1735039996558,
+            "stop" : 1735039996580,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: tel:+74957409979",
+            "time" : {
+              "start" : 1735039996580,
+              "stop" : 1735039996580,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Номер телефона"
+            }, {
+              "name" : "href",
+              "value" : "tel:+74957409979"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Номер телефона"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде, но не виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//a[starts-with(@href, \"tel:\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Email: найден в коде, но не виден на странице",
+          "time" : {
+            "start" : 1735039996603,
+            "stop" : 1735039996631,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: mailto:hello@only.com.ru",
+            "time" : {
+              "start" : 1735039996630,
+              "stop" : 1735039996631,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Email"
+            }, {
+              "name" : "href",
+              "value" : "mailto:hello@only.com.ru"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Email"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде, но не виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//a[starts-with(@href, \"mailto:\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Кнопка наверх: найден в коде, но не виден на странице",
+          "time" : {
+            "start" : 1735039996656,
+            "stop" : 1735039996662,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Кнопка наверх"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде, но не виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//div[contains(@class, \"sc-222969c7-9\")]]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Awwwards: найден в коде, но не виден на странице",
+          "time" : {
+            "start" : 1735039996684,
+            "stop" : 1735039996708,
+            "duration" : 24
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://www.awwwards.com/Ilyaredko/",
+            "time" : {
+              "start" : 1735039996708,
+              "stop" : 1735039996708,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Awwwards"
+            }, {
+              "name" : "href",
+              "value" : "https://www.awwwards.com/Ilyaredko/"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Awwwards"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде, но не виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Awwwards\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на VK: найден в коде, но не виден на странице",
+          "time" : {
+            "start" : 1735039996736,
+            "stop" : 1735039996760,
+            "duration" : 24
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://vk.com/onlydigitalagency",
+            "time" : {
+              "start" : 1735039996760,
+              "stop" : 1735039996760,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на VK"
+            }, {
+              "name" : "href",
+              "value" : "https://vk.com/onlydigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на VK"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде, но не виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Vkontakte\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Telegram: найден в коде, но не виден на странице",
+          "time" : {
+            "start" : 1735039996785,
+            "stop" : 1735039996812,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://t.me/onlycreativedigitalagency",
+            "time" : {
+              "start" : 1735039996812,
+              "stop" : 1735039996812,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Telegram"
+            }, {
+              "name" : "href",
+              "value" : "https://t.me/onlycreativedigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Telegram"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде, но не виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Telegram\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Vimeo: найден в коде, но не виден на странице",
+          "time" : {
+            "start" : 1735039996837,
+            "stop" : 1735039996859,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://vimeo.com/onlydigital",
+            "time" : {
+              "start" : 1735039996859,
+              "stop" : 1735039996859,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Vimeo"
+            }, {
+              "name" : "href",
+              "value" : "https://vimeo.com/onlydigital"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Vimeo"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде, но не виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Vimeo\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Элемент Ссылка на Behance: найден в коде, но не виден на странице",
+          "time" : {
+            "start" : 1735039996888,
+            "stop" : 1735039996909,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ссылка: https://www.behance.net/onlydigitalagency",
+            "time" : {
+              "start" : 1735039996908,
+              "stop" : 1735039996909,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "elementName",
+              "value" : "Ссылка на Behance"
+            }, {
+              "name" : "href",
+              "value" : "https://www.behance.net/onlydigitalagency"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "elementName",
+            "value" : "Ссылка на Behance"
+          }, {
+            "name" : "status",
+            "value" : "найден в коде, но не виден на странице"
+          }, {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (58fdfa0a82cd0431edd6b3a9da781433)] -> xpath: .//footer//span[text()=\"Behance\"]/ancestor::a]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 16,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://only.digital/#brief"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 29,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 180,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:FooterTest]/[method:testFooterVisibility()]"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "18712@MSI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "FooterTest"
+  }, {
+    "name" : "testClass",
+    "value" : "FooterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testFooterVisibility"
+  }, {
+    "name" : "suite",
+    "value" : "FooterTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e745aafaeab3e916.json",
+  "parameterValues" : [ ]
+}
